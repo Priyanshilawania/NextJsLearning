@@ -4,6 +4,7 @@ import LearnLink from "@/components/LearnLink";
 // import Image from "next/image";
 import learnuseRouter from "@/components/learnuseRouter";
 import LearnUseGlobalCss from "@/components/LearnUseGlobalCss";
+import LearnCssModule from "@/components/LearnCssModule";
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
       {/* < learnuseRouter/> */}
       {/* <LearnServerComponent /> */}
       {/* < LearnClientComponent/> */}
-      {<LearnUseGlobalCss/>}
+      {/* {<LearnUseGlobalCss/>} */}
+      <LearnCssModule/>
     
     </main>
   )
